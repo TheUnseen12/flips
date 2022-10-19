@@ -9,11 +9,13 @@
 
 ## Objective
 
-With the launch of permissionless deployment of Access Nodes, the network should implement a mechanism to address misbehaving Access nodes if necessary. This proposal intends to outline the process by which misbehaving Access Nodes, whether acting maliciously or inadvertently, should be removed from the active set.
+With the launch of permissionless deployment of Access Nodes, the network should implement a mechanism to address misbehaving Access nodes if necessary. This proposal intends to outline the process by which misbehaving Access Nodes, whether acting maliciously or inadvertently, should be removed from the active set. This proposal does not intend to define what constitutes a misbehaving node and leaves that to the discretion of the community.
 
 ## Motivation
 
+While inclusion and execution fees are an economic deterrent to spam attacks from users who bear the cost of these fees, the multi-role node architecture of Flow presents an opportunity for certain node types to act in ways that may negatively impact the liveness of the chain.
 
+Currently on Flow, Access Nodes require no minimum stake to be active in the network, and no automatic on-chain slashing mechanism exists within the network to disincentivize misbehavior. 
 
 Why is this a valuable problem to solve? What background information is needed
 to show how this design addresses the problem?
