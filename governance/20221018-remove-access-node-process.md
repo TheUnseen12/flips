@@ -1,4 +1,4 @@
-# Implement Steps to Remove Malicious or Inactive Access Nodes
+# Define the Process to Remove Malicious Access Nodes
 
 | Status        | Proposed                                                                              |
 :-------------- |:---------------------------------------------------- |
