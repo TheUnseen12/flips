@@ -9,7 +9,7 @@
 
 ## Objective
 
-With the launch of permissionless deployment of Access Nodes, the network should implement a mechanism to address misbehaving Access nodes if necessary. This proposal intends to outline the process by which misbehaving Access Nodes, whether acting maliciously or inadvertently, should be removed from the active set. This proposal does not intend to define what constitutes a misbehaving node and leaves that to the discretion of the community.
+With the launch of permissionless deployment of Access Nodes, the community should implement a process to address misbehaving Access nodes if necessary. This proposal intends to outline the process by which misbehaving Access Nodes, whether acting maliciously or inadvertently, should be removed from the active set in the absence of on-chain mechanisms such as minumum stake requirements or automated slashing. This proposal does not intend to define what constitutes a misbehaving node and leaves that to the discretion of the community.
 
 ## Motivation
 
