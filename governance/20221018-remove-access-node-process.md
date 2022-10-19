@@ -17,6 +17,8 @@ While inclusion and execution fees are an economic deterrent to spam attacks fro
 
 Currently on Flow, Access Nodes require no minimum stake to be active in the network, and no automatic on-chain slashing mechanism exists within the network to disincentivize misbehavior. 
 
+Open question: Do Access Nodes have an open communication channel that can send 
+
 Why is this a valuable problem to solve? What background information is needed
 to show how this design addresses the problem?
 
@@ -44,7 +46,11 @@ your FLIP addresses a convention or process, not an API.
 
 Why should this *not* be done? What negative impact does it have? 
 
+
+
 ### Alternatives Considered
+
+Maintain status quo of individual node operators to implement protections 
 
 * Make sure to discuss the relative merits of alternatives to your proposal.
 
@@ -106,7 +112,12 @@ Some things to consider related to the tutorial:
 What related issues do you consider out of scope for this proposal, 
 but could be addressed independently in the future?
 
+- Minumum Staking requirements for Access Nodes
+- On-chain slashing implemented
+- Active set selection for Access Nodes
+
 ## Prior Art
+
 
 Does the proposed idea/feature exist in other systems and 
 what experience has their community had?
