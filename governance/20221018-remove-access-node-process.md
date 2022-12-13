@@ -1,15 +1,17 @@
-# Define the Process to Remove Malicious Access Nodes
+# Define the Process to Inform the Community of errant Access Nodes
 
 | Status        | Proposed                                                                              |
 :-------------- |:---------------------------------------------------- |
 | **FLIP #**    | [NNN](https://github.com/onflow/flow/pull/NNN) (update when you have PR #)|
 | **Author(s)** | Coinbase Cloud (cloud-support@coinbase.com), James Lofgren (james.lofgren@coinbase.com) |
 | **Sponsor**   | Editor (paul.gebheim@dapperlabs.com)             |
-| **Updated**   | 2022-10-18                                           |
+| **Updated**   | 2022-12-13                                           |
 
 ## Objective
 
-With the launch of permissionless deployment of Access Nodes, the community should implement a process to address misbehaving Access nodes if necessary. This proposal intends to outline the process by which misbehaving Access Nodes, whether acting maliciously or inadvertently, should be removed from the active set in the absence of on-chain mechanisms such as minumum stake requirements or automated slashing. This proposal does not intend to define what constitutes a misbehaving node and leaves that to the discretion of the community.
+Define the process for network participants to inform the community of potentially errant Access Nodes in the absence of automated on-chain slashing.
+
+The current design for permissionless deployment of Access Nodes has no minimum stake requirement or on-chain slashing mechanisms that would disincentivize an Access Node from errant behavior. This behavior could be inadvertent or malicious, through actions such as spamming or being unresponsive to requests. In either scenario, this leads to a degradation of network performance for all participants, and in extreme cases could constitute a liveness failure.
 
 ## Motivation
 
